@@ -21,8 +21,8 @@ where
     let mut output = vec![0; n];
     let mut count = vec![0; 10];
 
-    for &num in arr {
-        let digit = ((num / exp) % 10) as usize;
+    for num in arr.iter_mut() {
+        let digit = ((*num / exp) % 10) as usize;
         count[digit] += 1;
     }
 
@@ -30,9 +30,9 @@ where
         count[i] += count[i - 1];
     }
 
-    for &num in arr.iter().rev() {
-        let digit = ((num / exp) % 10) as usize;
-        output[count[digit] - 1] = num;
+    for num in arr.iter_mut().rev() {
+        let digit = ((*num / exp) % 10) as usize;
+        output[count[digit] - 1] = *num;
         count[digit] -= 1;
     }
 
