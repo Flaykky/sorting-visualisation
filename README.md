@@ -37,3 +37,6 @@ visualation of working sorting algorithms.
 
 .shellSort - sort using shellsort
 
+## LICENSE
+
+Distributed under the MIT License. See [LICENSE](LICENSE) file for details.
