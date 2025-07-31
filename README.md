@@ -1,4 +1,4 @@
-# sorting-visualisations
+# sorting-visualizations
 visualation of working sorting algorithms.
 
 ## commands 
