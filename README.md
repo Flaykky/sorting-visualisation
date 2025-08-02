@@ -1,5 +1,5 @@
 # sorting-visualizations
-visualization of working sorting algorithms.
+visualization of working diffrent sorting algorithms.
 
 ## commands 
 
