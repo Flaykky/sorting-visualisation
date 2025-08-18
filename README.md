@@ -37,6 +37,9 @@ visualization of working diffrent sorting algorithms.
 
 .shellSort - sort using shellsort
 
+.compare sort sort - compare 2 or more sorting algorithms
+
+
 ## LICENSE
 
 Distributed under the MIT License. See [LICENSE](LICENSE) file for details.
