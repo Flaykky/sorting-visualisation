@@ -39,6 +39,19 @@ visualization of working diffrent sorting algorithms.
 
 .compare sort sort - compare 2 or more sorting algorithms
 
+## sorting algorithms avaible:
+- bubble sort 
+- quicksort
+- merge sort
+- tim sort
+- cocktail sort 
+- radix msd/lsd
+- heapsort
+- counting sort
+- insertion sort 
+- shell sort 
+- gnome sort
+
 
 ## LICENSE
 
